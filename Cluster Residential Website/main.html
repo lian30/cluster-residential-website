@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="logo">
+            <img src="best_cluster_logo.png" alt="Logo" style="width: 100px; height: auto;">
+        </div>
+            <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for groups, users, or posts...">
+        </div>
+        <div class="user-actions"></div>
+            <button class="notification-btn">🔔</button>
+            <button class="message-btn">📧</button>
+            <img src="profile-pic.jpg" alt="User Profile" class="profile-pic">
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="dashboard-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+        <section class="notification-center">
+            <h3>Notifications</h3>
+            <ul>
+                <li>
+                    <img src="notification1.jpg" alt="Notification">
+                    <p><strong>John Ratzenberger</strong> created a new announcement.</p>
+                    <span>5m ago</span>
+                </li>
+                <li>
+                    <img src="notification2.jpg" alt="Notification">
+                    <p><strong>Jane Smith</strong> sent you a new message.</p>
+                    <span>15m ago</span>
+                </li>
+                <li>
+                    <img src="notification3.jpg" alt="Notification">
+                    <p><strong>Mike Johnson</strong> sent you a friend request.</p>
+                    <span>1h ago</span>
+                </li>
+            </ul>
+        </section>
+            
+        </aside>
+
+        <!-- MAIN FEED -->
+        <main class="main-feed">
+            <!-- PROFILE BANNER -->
+            <section class="profile-banner">
+                <div class="profile-image">
+                    <img src="profile-banner.jpg" alt="Banner">
+                </div>
+                <div class="profile-details">
+                    <img src="profile-pic.jpg" alt="Profile" class="profile-pic-large">
+                    <h2>Marina Valentine</h2>
+                    <p>@MarinaV</p>
+                </div>
+                <div class="profile-stats">
+                    <div><strong>9</strong> Posts</div>
+                    <div><strong>5</strong> Friends</div>
+                    <div><strong>50</strong> Followers</div>
+                </div>
+            </section>
+
+            <!-- CONTENT FEED -->
+            <section class="content-feed">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="profile-pic.jpg" alt="Profile">
+                        <h4>Marina Valentine</h4>
+                        <span>2h ago</span>
+                    </div>
+                    <p>Apa yang kalian paling senangi tinggal disini?</p>
+                    <img src="post-image.jpg" alt="Post Image">
+                    <div class="post-actions">
+                        <button>👍 Like</button>
+                        <button>💬 Comment</button>
+                        <button>🔁 Share</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="right-sidebar">
+            <section class="friend-list">
+                <h3>Friends</h3>
+                <ul>
+                    <li><img src="friend1.jpg" alt="Michael"><p>Michael Bay</p></li>
+                    <li><img src="friend2.jpg" alt="James May"><p>James May</p></li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>
