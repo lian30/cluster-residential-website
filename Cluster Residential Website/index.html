@@ -1,0 +1,59 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage - Best Cluster</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/best_cluster-removebg-preview (1).png" alt="Best Cluster Logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Announcements</a>
+      <a href="#">Information Center</a>
+      <a href="#">Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Profile Section -->
+    <section class="profile-section">
+      <div class="profile-card">
+        <img src="profile-pic.png" alt="User Profile Picture" class="profile-pic">
+        <h2>Welcome, <?php echo htmlspecialchars($user_name); ?></h2>
+        <p>Status: Owner</p>
+        <button class="edit-profile-btn">Edit Profile</button>
+      </div>
+    </section>
+
+    <!-- Friends Section -->
+    <section class="friends-section">
+      <h3>Your Friends</h3>
+      <div class="friends-list">
+        <div class="friend-card">
+          <img src="friend1.png" alt="Friend 1" class="friend-pic">
+          <p>Friend 1</p>
+        </div>
+        <div class="friend-card">
+          <img src="friend2.png" alt="Friend 2" class="friend-pic">
+          <p>Friend 2</p>
+        </div>
+        <div class="friend-card">
+          <img src="friend3.png" alt="Friend 3" class="friend-pic">
+          <p>Friend 3</p>
+        </div>
+        <!-- Add more friends as needed -->
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+
